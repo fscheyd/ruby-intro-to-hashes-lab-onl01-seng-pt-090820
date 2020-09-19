@@ -39,10 +39,10 @@ def monopoly_with_third_tier
 	}
 	
 	monopoly[:railroads][:rent_in_dollars] {
-	  [:one_piece_owened] = 25
-	  [:two_pieces_owened] = 50
-	  [:three_pieces_owened] = 100
-	  [:four_pieces_owened] = 200
+	  [:one_piece_owened] => 25
+	  [:two_pieces_owened] => 50
+	  [:three_pieces_owened] => 100
+	  [:four_pieces_owened] => 200
 	}
 	monopoly[:railroads][:names][:reading_railroad] = {}
 	monopoly[:railroads][:names][:pennsylvania_railroad] = {}
